@@ -18,18 +18,13 @@
   @media screen and (min-width: $lg-width) {
     #main_content {
       margin-right: 20px;
-    }
-  }
-
-  @media screen and (min-width: $lg-width) {
-    #main_content {
-      margin-right: 20px;
+      margin-left: 20px; 
     }
   }
 }
 
 #main_content {
-  background-color: #fff;
+  background: #fff;
   @include box-shadow(0 0 4px 0 rgba(0,0,0,.04));
   padding: 15px 10px;
 
