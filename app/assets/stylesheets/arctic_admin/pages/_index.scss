@@ -79,7 +79,7 @@ body.index {
     margin-bottom: -4px;
 
     .member_link {
-      @include primary-button($primary-color, white);
+      @include primary-button($button-color, white);
       padding: 4px 8px;
       margin-right: 4px;
       margin-bottom: 4px;
