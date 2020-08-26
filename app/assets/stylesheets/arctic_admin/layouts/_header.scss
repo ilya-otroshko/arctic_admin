@@ -93,12 +93,6 @@ body.active_admin.logged_in {
       }
     }
 
-    @media screen and (min-width: $lg-width) {
-      &:before {
-        display: none;
-      }
-    }
-
     @media screen and (min-width: $x-lg-width) {
       width: $lg-screen-header-width;
     }
