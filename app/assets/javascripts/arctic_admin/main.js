@@ -29,7 +29,7 @@ $(function () {
             },
             600,
             function () {
-              $(this).css('position', 'absolute')
+              $(this).css('position', 'fixed')
               animationFilterDone = true
             }
           )
