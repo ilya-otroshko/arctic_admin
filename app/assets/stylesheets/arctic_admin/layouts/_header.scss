@@ -24,7 +24,7 @@ body.active_admin.logged_in {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: $header-background;
+    background: $header-background;
     border-bottom: 1px solid $header-border-color;
     text-align: center;
     margin: 0;
@@ -57,7 +57,7 @@ body.active_admin.logged_in {
     right: 0;
     z-index: 3;
     text-align: right;
-    background-color: $header-background;
+    background: $header-background;
     border-bottom: 1px solid $header-border-color;
 
     &:before {
@@ -94,11 +94,11 @@ body.active_admin.logged_in {
       @include transition-button();
 
       &:hover {
-        background-color: $header-nav-action-hover-background;
+        background: $header-nav-action-hover-background;
       }
 
       &:active {
-        background-color: $header-nav-action-active-background;
+        background: $header-nav-action-active-background;
       }
     }
 
@@ -186,7 +186,7 @@ body.active_admin.logged_in {
 }
 
 #title_bar {
-  background-color: #fff;
+  background: #fff;
   @include box-shadow($box-shadow);
   margin: 15px 0 0 0;
   padding: 8px 10px;
