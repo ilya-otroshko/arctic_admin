@@ -70,7 +70,7 @@ body.active_admin.logged_in {
       position: absolute;
       top: 0;
       left: 0;
-      color: $text-color;
+      color: $text-color-alternative;
       padding: 15px 0;
       text-align: center;
       width: 40px;
@@ -120,7 +120,7 @@ body.active_admin.logged_in {
           position: absolute;
           top: 0;
           right: 0;
-          color: $text-color;
+          color: $text-color-alternative;
           padding: 15px 0;
           text-align: center;
           width: 50px;
@@ -159,7 +159,7 @@ body.active_admin.logged_in {
           position: absolute;
           top: 0;
           right: 0;
-          color: $text-color;
+          color: $text-color-alternative;
           padding: 15px 0;
           text-align: center;
           width: 50px;
@@ -207,7 +207,7 @@ body.active_admin.logged_in {
     h2 {
       display: inline-block;
       font-size: 16px;
-      color: $text-color-table;
+      color: $text-color-alternative;
     }
   }
 
