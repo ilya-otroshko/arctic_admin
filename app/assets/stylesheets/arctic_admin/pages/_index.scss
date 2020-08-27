@@ -27,7 +27,7 @@ body.index {
     }
 
     .dropdown_menu_button{
-      @include secondary-dropdown($primary-color);
+      @include secondary-dropdown($text-color);
     }
 
     .dropdown_menu_list {
