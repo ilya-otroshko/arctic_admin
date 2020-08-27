@@ -94,11 +94,6 @@ body.active_admin.logged_in {
       display: inline-block;
       @include transition-button();
 
-      &:hover {
-        background: $header-nav-action-hover-background;
-      }
-      &:hover ~ #current_user a::before{color: $text-color;}
-
       &:active {
         background: $header-nav-action-active-background;
       }
