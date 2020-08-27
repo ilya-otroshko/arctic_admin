@@ -93,7 +93,7 @@ select {
   @include transition(border-color ease-in-out .15s);
 
   &:focus {
-    border-color: $primary-color;
+    border-color: $text-color;
     @include box-shadow(none);
     @include transition(border .25s linear,color .25s linear,background-color .25s linear);
   }
