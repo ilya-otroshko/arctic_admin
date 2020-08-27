@@ -93,10 +93,6 @@ body.active_admin.logged_in {
     li {
       display: inline-block;
       @include transition-button();
-
-      &:active {
-        background: $header-nav-action-active-background;
-      }
     }
 
     #current_user {
