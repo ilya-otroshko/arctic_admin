@@ -32,7 +32,7 @@ input[type="number"], textarea {
 
   &:-webkit-autofill, &:-webkit-autofill:hover, &:-webkit-autofill:focus {
     -webkit-box-shadow: 0 0 0px 1000px white inset;
-    -webkit-text-fill-color: $text-color-table;
+    -webkit-text-fill-color: $text-color;
   }
 }
 
