@@ -21,7 +21,7 @@ input[type="number"], textarea {
   @include transition(border-color ease-in-out .15s);
 
   &:focus {
-    border-color: $primary-color;
+    border-color: $text-color;
     @include appearance();
     @include transition(border .25s linear,color .25s linear,background-color .25s linear);
   }
