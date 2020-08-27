@@ -58,8 +58,7 @@
 
     .actions {
       .action {
-        display: inline-block;
-        margin-right: 10px;
+        display: flex;
 
         input[type="submit"] {
           line-height: 43px;
