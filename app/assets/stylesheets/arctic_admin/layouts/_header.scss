@@ -97,6 +97,7 @@ body.active_admin.logged_in {
       &:hover {
         background: $header-nav-action-hover-background;
       }
+      &:hover ~ #current_user a::before{color: $text-color;}
 
       &:active {
         background: $header-nav-action-active-background;
