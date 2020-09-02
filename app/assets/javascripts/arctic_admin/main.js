@@ -96,7 +96,7 @@ $(function () {
     e.stopPropagation()	
     $('#tabs .has_nested').each(function(){
       $(this).removeClass('open');
-    };
+    });
     $(this).toggleClass('open')	
   })
 
