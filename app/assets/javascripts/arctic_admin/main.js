@@ -91,5 +91,13 @@ $(function () {
       }
     }
   })
+  
+  $(document).on('click', '#tabs .has_nested', function (e) {	
+    e.stopPropagation()	
+    $('#tabs .has_nested').each(function(){
+      $(this).removeClass('open');
+    };
+    $(this).toggleClass('open')	
+  })
 
 })
