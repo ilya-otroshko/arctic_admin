@@ -83,17 +83,23 @@
         }
       }
 
-      &.open, &.current {
+      &.open{
         & > a:nth-child(1) {
           position: relative;
-
           &:after {
             @include icon("\f0d8");
           }
         }
-
         ul {
           display: block;
+        }
+      }
+      &.current {
+        & > a:nth-child(1) {
+          position: relative;
+          &:after {
+            @include icon("\f0d8");
+          }
         }
       }
     }
