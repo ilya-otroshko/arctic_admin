@@ -92,7 +92,7 @@ $(function () {
     }
   })
 
-  $(document).on('click', '#tabs .has_nested', function (e) {
+  $(document).on('mouseenter', '#tabs .has_nested', function (e) {
     e.stopPropagation()
     $(this).toggleClass('open')
   })
