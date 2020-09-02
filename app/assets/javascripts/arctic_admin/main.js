@@ -93,11 +93,12 @@ $(function () {
   })
   
   $(document).on('click', '#tabs .has_nested', function (e) {	
+    var el = $(this);
     e.stopPropagation()	
     $('#tabs .has_nested').each(function(){
       $(this).removeClass('open');
     });
-    $(this).toggleClass('open')	
+    el == $(this) ? $(this).removeClass('open') : $(this).addClass('open')
   })
 
 })
